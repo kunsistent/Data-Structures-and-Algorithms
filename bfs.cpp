@@ -26,6 +26,8 @@ void bfs(int u)
     }
 
 }
+
+/*
 int main()
 {
     int u,v,e,n;
@@ -40,3 +42,4 @@ int main()
     bfs(1);
     return(0);
 }
+*/
