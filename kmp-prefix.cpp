@@ -1,5 +1,3 @@
-#include<bits/stdc++.h>
-using namespace std;
 int arr[100001];
 void prefix(string s)
 {
@@ -21,14 +19,4 @@ void prefix(string s)
             j=arr[j-1];
         }
     }
-}
-
-int main()
-{
-    string s;
-    cin>>s;
-    prefix(s);
-    for(int i=0;i<s.size();i++)
-        cout<<arr[i]<<" ";
-    return(0);
 }
