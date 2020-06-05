@@ -1,4 +1,4 @@
-//This is a function for simple path in a tree.
+//This is a function for finding simple path in a tree.
 /*   Store the tree in the g[N] vector and call dfscall function which takes
      no. of elements in the tree,starting point and ending point and returns
      a vector with simple path between a and b.  */
